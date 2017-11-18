@@ -63,11 +63,7 @@ class MainApp extends React.Component {
     const { navigate } = this.props.navigation;
     return (
       <View  style = {{flex:1,backgroundColor:'#6cefc3'}}>
-        <Text style={styles.welcome}>NAMA KELOMPOK : </Text>
-        <Text style={styles.instructions}>-Alifani Fatma     (13.2014.1.00421)</Text>
-        <Text style={styles.instructions}>-Dermaditya R.H    (13.2015.1.00460)</Text>
-        <Text style={styles.instructions}>-Ziad Saleh B.A.A  (13.2015.1.00463)</Text>
-        <Text style={styles.instructions}>-Arnold Armando S  (13.2015.1.00487)</Text>
+        <Text style={styles.instructions}>Aplikasi Penggunaan Navigation Pada React Native</Text>
         <Text style={styles.footer}>Copyright2017</Text>
         <Image
           style={{width: 368, height: 500, alignSelf:'center'}}
@@ -116,4 +112,4 @@ const Bar = TabNavigator({
   Menu6: { screen: imunisasibalita },
 });
 
-AppRegistry.registerComponent('ets', () => Bar);
+AppRegistry.registerComponent('react-native-navigation', () => Bar);
