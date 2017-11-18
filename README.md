@@ -1,1 +1,2 @@
-# React-Native-Navigation
+# npm install --save react-navigation
+# npm install
